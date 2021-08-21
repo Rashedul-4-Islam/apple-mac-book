@@ -1,11 +1,11 @@
 // function using for memory charge part
 
-function getMemoryCharge(isAdd){
+function getMemoryCharge(memory){
     let extraMemory = document.getElementById('memory');
-    if(isAdd == "eight"){
+    if(memory == "eight"){
         let memoryCharge = extraMemory.innerText;
         extraMemory.innerText = 0; 
-    }else if(isAdd == "sixteen"){
+    }else if(memory == "sixteen"){
         let memoryCharge = extraMemory.innerText;
         extraMemory.innerText = 180; 
     }
